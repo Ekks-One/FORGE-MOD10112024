@@ -1,0 +1,7 @@
+{
+  "_comment": "This gives the item a name in the game",
+  "item.testmod.toiletpaper": "Toilet Paper",
+  "item.testmod.phone": "Phone",
+
+  "creative.test_tab": "Test Tab"
+}

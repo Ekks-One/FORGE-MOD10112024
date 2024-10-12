@@ -1,0 +1,10 @@
+{
+  "_comment": "name of json file must be same as item name",
+  "_comment1": "parent: How we hold it in our hand",
+  "parent": "item/generated",
+
+  "_comment2": "textures: Points to textures file",
+  "textures": {
+    "layer0": "testmod:item/toiletpaper"
+  }
+}
