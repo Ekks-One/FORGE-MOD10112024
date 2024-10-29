@@ -1,0 +1,7 @@
+{
+  "_comment": "cubeall tells it that it can use 1 texture for all 6 sides in block folder in textures" ,
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "testmod:block/star_ore"
+  }
+}

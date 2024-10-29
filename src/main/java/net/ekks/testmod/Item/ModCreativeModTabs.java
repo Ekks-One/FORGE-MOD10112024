@@ -21,7 +21,7 @@ public class ModCreativeModTabs {
                             output.accept(ModItems.PHONE.get());
                             output.accept(ModItems.TOILETPAPER.get());
                             output.accept(ModItems.STAR.get());
-
+                            output.accept(ModBlocks.STAR_ORE.get());
                             output.accept(ModBlocks.STAR_BLOCK.get());
 
                         })

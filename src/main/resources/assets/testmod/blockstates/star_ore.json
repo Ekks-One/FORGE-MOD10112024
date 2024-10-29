@@ -1,0 +1,9 @@
+{
+  "_comment": "looks for star_block json file model w bock folder",
+  "variants": {
+    "": {
+      "model": "testmod:block/star_ore"
+    }
+
+  }
+}
