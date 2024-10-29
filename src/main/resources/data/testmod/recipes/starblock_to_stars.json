@@ -1,0 +1,16 @@
+{
+  "!comment": "shapeless refers to whole crafting square",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "1comment": "ingredients are ingredients of reciepe",
+  "ingredients": [
+    {
+      "item": "testmod:star_block"
+    }
+  ],
+  "result": {
+    "item":"testmod:star",
+    "count": 9
+  }
+
+}

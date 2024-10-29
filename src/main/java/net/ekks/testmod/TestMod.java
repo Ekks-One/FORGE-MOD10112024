@@ -3,6 +3,7 @@ package net.ekks.testmod;
 import com.mojang.logging.LogUtils;
 import net.ekks.testmod.Item.ModCreativeModTabs;
 import net.ekks.testmod.Item.ModItems;
+import net.ekks.testmod.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,6 +32,9 @@ public class TestMod {
         ModCreativeModTabs.register((modEventBus));
         //Makes sure the Deffered Register is in the Game, making sure our items are added
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -45,6 +49,7 @@ public class TestMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TOILETPAPER);
             event.accept(ModItems.PHONE);
+            event.accept(ModItems.STAR);
         }
     }
 

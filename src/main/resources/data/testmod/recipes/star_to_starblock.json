@@ -1,0 +1,19 @@
+{
+  "!comment!": "reference this for future recipes C:\\Users\\Gawkus\\.gradle\\caches\\forge_gradle\\minecraft_repo\\versions\\1.20.1\\client-extra.jar!\\data\\minecraft",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "comment": "key referes to # and represents the reciepe",
+  "key": {
+    "#": {
+      "item": "testmod:star"
+    }
+  },
+  "result": {
+    "item": "testmod:star_block"
+  }
+}
